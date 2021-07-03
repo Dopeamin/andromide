@@ -1,0 +1,11 @@
+{% extends "authentification/navigation.html.twig" %}
+
+{% block body %}
+    {{parent()}}
+    {{form_start()}}
+    <div class="container">
+        <div class="left">
+            {{form_row(form)}}
+        </div>
+    </div>
+{% endblock %}
